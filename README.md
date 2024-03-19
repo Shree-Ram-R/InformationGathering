@@ -27,6 +27,8 @@ Following Categories of pen test tools are identified for information gathering:
 
 Footprinting is a part of the reconnaissance process which is used for gathering possible information about a target computer system or network.
 http://www.whois.com/whois website to get detailed information about a domain name information including its owner, its registrar, date of registration, expiry, name server, owner's contact information, etc.
+
+
 ![image](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/2bc2caa1-ddf2-4df7-99a8-c25a87a5a7ed)
 
 Finding IP address:
@@ -45,6 +47,7 @@ History of the website:
 
 # Webserver Fingerprinting
 ## Netcat:
+
 ![nc](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/5381ba9b-1554-4247-a228-d31740e915b7)
 
 ## nmap:
@@ -80,9 +83,8 @@ UDP Traceroute:
 
 ICMP Traceroute:
 ```sudo traceroute  www.google.com```
+
 ![trace](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/21d50262-a0cb-4973-8a6c-088a3d25ba1d)
-
-
 
 
 ## RESULT:
