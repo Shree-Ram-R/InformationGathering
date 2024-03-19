@@ -67,6 +67,9 @@ History of the website:
 
 TCP Traceroute:
 ```sudo traceroute -T www.google.com```
+
+
+
 ![trace 2](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/28b30055-8d7b-44ea-bfb5-1a9db20f5d3f)
 
 UDP Traceroute:
