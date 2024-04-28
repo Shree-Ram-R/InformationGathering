@@ -93,20 +93,26 @@ httprint  -h 103.21.58.16 -s /usr/share/httprint/signatures.txt -P0 |more
 
 
 TCP Traceroute:
-```sudo traceroute -T www.google.com```
+```
+sudo traceroute -T www.google.com
+```
 
 
 
 ![trace 2](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/28b30055-8d7b-44ea-bfb5-1a9db20f5d3f)
 
 UDP Traceroute:
-```sudo traceroute -U www.google.com```
+```
+sudo traceroute -U www.google.com
+```
 
 
 ![trace1](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/20070422-d687-4737-9b51-b1d3d2368446)
 
 ICMP Traceroute:
-```sudo traceroute  www.google.com```
+```
+sudo traceroute  www.google.com
+```
 
 ![trace](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/21d50262-a0cb-4973-8a6c-088a3d25ba1d)
 
