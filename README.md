@@ -1,13 +1,13 @@
-# InformationGathering
-Information Gathering Techiques
+# EXP.N0:2
+# DATE:
 
-# To perform information gathering techniques
+# InformationGathering
 
 # AIM:
 
 To perform information gathering techniques using kali linux 
 
-## STEPS:
+# ALGORITHM:
 
 ### Step 1:
 
@@ -33,6 +33,9 @@ http://www.whois.com/whois website to get detailed information about a domain na
 
 Finding IP address:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of facebook.com.
+```
+ping facebook.com
+```
 
 ![Screenshot 2024-03-05 091930](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/62d85775-7829-475f-92a1-40a9aef114f7)
 
@@ -48,20 +51,41 @@ History of the website:
 # Webserver Fingerprinting
 ## Netcat:
 
+```
+nc google.com 80
+GET /HTTP/1.1
+Host: google.com
+```
+
 ![nc](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/5381ba9b-1554-4247-a228-d31740e915b7)
 
 ## nmap:
+
+```
+nmap -p 21 sV --script=banner ftp.vim.org
+```
 
 ![nmap](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/760cd187-445f-43a8-82bd-65f089fb1188)
 
 
 ## Whatweb
 
+```
+whatweb google.com
+whatweb saveetha.ac.in
+
+whatweb -v -a 3 103.21.58.16
+```
+
 ![whatweb](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/ac25ca1e-e27b-4dd9-93bb-40e7bc02e3fc)
 
 ![whatweb2](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/fa5874e6-1179-47dc-9689-4daadd2f04c7)
 
 ## httprint
+
+```
+httprint  -h 103.21.58.16 -s /usr/share/httprint/signatures.txt -P0 |more
+```
 
 ![httprint](https://github.com/Shree-Ram-R/InformationGathering/assets/121288490/b5c6b2f1-2d9e-4a48-834f-402c3fbb4f97)
 
